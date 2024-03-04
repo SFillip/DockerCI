@@ -35,4 +35,4 @@ jobs:
           context: .
           push: true
           target: final
-          tags: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}:version1.0
+          tags: ${{ secrets.DOCKER_USERNAME }}/docker_ci:version1.0
